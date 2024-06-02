@@ -14,7 +14,7 @@ function App() {
         <Route path='/' element={<DashboardPage />} />
         <Route path='/FrontMonit/map/' element={ <MapaNew />}/>
         {/* <Route path='/FrontMonit/map/' element={<MapaPage />}/> */}
-        <Route path='*' element={<Page404 />} />
+        <Route path='*' element={<DashboardPage />} />
       </Routes>
     </Router>
   );
